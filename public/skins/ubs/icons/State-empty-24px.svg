@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>5 - Status/Left Navigation/24px/State-empty</title>
+    <desc>Created with Sketch.</desc>
+    <g id="5---Status/Left-Navigation/24px/State-empty" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Fill" fill="#FFFFFF" cx="12" cy="12" r="8"></circle>
+        <path d="M12,3 C16.971,3 21,7.029 21,12 C21,16.971 16.971,21 12,21 C7.029,21 3,16.971 3,12 C3,7.029 7.029,3 12,3 Z M12,4.5 C7.8575,4.5 4.5,7.8575 4.5,12 C4.5,16.1425 7.8575,19.5 12,19.5 C16.1425,19.5 19.5,16.1425 19.5,12 C19.5,7.8575 16.1425,4.5 12,4.5 Z" id="Base-Color" fill="#0A7520"></path>
+    </g>
+</svg>

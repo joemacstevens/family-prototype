@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>6 - Favicon/Client</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M8.00459716,10 C12.4421652,10.1082048 14.8022603,11.8956009 14.988095,15.5250417 C14.9963086,15.5733576 15,15.6182171 15,15.6608233 L15,16 L1,16 L1.00200213,15.8220348 L1,15.6608233 C1,15.6182171 1.0036914,15.5733576 1.01092291,15.5264104 C1.19349384,11.9781193 3.45168028,10.1904022 7.69606173,10.0099816 L8.00459716,10 Z M7.94457819,0 C10.4388034,0 12,1.7964128 12,4.4910162 C12,7.1856196 10.4388034,9 7.94457819,9 C5.45035298,9 4,7.2035872 4,4.5089838 C4,1.8143804 5.45035298,0 7.94457819,0 Z" id="path-1"></path>
+    </defs>
+    <g id="6---Favicon/Client" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="var(--icon-color, #1c1c1c)" xlink:href="#path-1"></use>
+    </g>
+</svg>

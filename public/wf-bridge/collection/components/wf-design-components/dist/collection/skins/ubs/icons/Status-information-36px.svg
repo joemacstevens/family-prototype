@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>5 - Status/36px/Information</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,3 C26.285,3 33,9.715 33,18 C33,26.285 26.285,33 18,33 C9.715,33 3,26.285 3,18 C3,9.715 9.715,3 18,3" id="path-1"></path>
+    </defs>
+    <g id="5---Status/36px/Information" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M16,11 L16,7 L20,7 L20,11 L16,11 Z M16,29 L16,13 L20,13 L20,29 L16,29 Z" id="Shape" fill="#FFFFFF"></path>
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Information-base-color" fill="#5A6F89" xlink:href="#path-1"></use>
+        <path d="M20,25 L20,29 L16,29 L16,25 L20,25 Z M20,7 L20,22 L16,22 L16,7 L20,7 Z" id="Combined-Shape" fill="#FFFFFF" transform="translate(18.000000, 18.000000) rotate(-180.000000) translate(-18.000000, -18.000000) "></path>
+    </g>
+</svg>

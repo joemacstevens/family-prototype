@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Action-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Action-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,17 C13.4,17 14.5,18.1458333 14.5,19.5 C14.5,20.8541667 13.4,22 12,22 C10.6,22 9.5,20.8541667 9.5,19.5 C9.5,18.1458333 10.6,17 12,17 Z M12,9.5 C13.4,9.5 14.5,10.6458333 14.5,12 C14.5,13.3541667 13.4,14.5 12,14.5 C10.6,14.5 9.5,13.3541667 9.5,12 C9.5,10.6458333 10.6,9.5 12,9.5 Z M12,2 C13.4,2 14.5,3.14583333 14.5,4.5 C14.5,5.85416667 13.4,7 12,7 C10.6,7 9.5,5.85416667 9.5,4.5 C9.5,3.14583333 10.6,2 12,2 Z" id="Combined-Shape" fill="var(--icon-color, #1c1c1c)"></path>
+    </g>
+</svg>

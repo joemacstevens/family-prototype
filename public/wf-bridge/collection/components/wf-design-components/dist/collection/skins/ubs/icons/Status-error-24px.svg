@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>5 - Status/24px/Error</title>
+    <desc>Created with Sketch.</desc>
+    <g id="5---Status/24px/Error" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-3" transform="translate(3.000000, 3.000000)">
+            <path d="M8.9997,-0.0006 C4.0277,-0.0006 0.0007,4.0314 0.0007,9.0004 C0.0007,13.9744 4.0277,17.9994 8.9997,17.9994 C13.9677,17.9994 18.0007,13.9744 18.0007,9.0004 C18.0007,4.0314 13.9677,-0.0006 8.9997,-0.0006 L8.9997,-0.0006 Z" id="Error-base-color" fill="#B32E31"></path>
+            <polygon id="Path" fill="#FFFFFF" points="14.3147 12.7244 12.7237 14.3154 9.0007 10.5914 5.2757 14.3154 3.6847 12.7244 7.4087 9.0004 3.6837 5.2754 5.2757 3.6844 9.0007 7.4094 12.7247 3.6844 14.3157 5.2754 10.5907 9.0004"></polygon>
+        </g>
+    </g>
+</svg>

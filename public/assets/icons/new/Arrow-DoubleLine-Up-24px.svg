@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Arrow-DoubleLine-Up-24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,11.875 L18,17.8954436 L16.8989837,19 L12,14.0843241 L7.10101627,19 L6,17.8954436 L12,11.875 Z M12,4.875 L18,10.8954436 L16.8989837,12 L12,7.08432412 L7.10101627,12 L6,10.8954436 L12,4.875 Z" id="path-1"></path>
+    </defs>
+    <g id="Arrow-DoubleLine-Up-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="var(--icon-color, #1c1c1c)" xlink:href="#path-1"></use>
+    </g>
+</svg>

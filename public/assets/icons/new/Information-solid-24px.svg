@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Information-solid-24px</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Information-solid-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M12,3 C16.9709664,3 21,7.02903363 21,12 C21,16.9709664 16.9709664,21 12,21 C7.02903363,21 3,16.9709664 3,12 C3,7.02903363 7.02903363,3 12,3 Z" id="Path" fill="var(--icon-color, #1c1c1c)" fill-rule="nonzero"></path>
+        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="13 10 13 18 11 18 11 10"></polygon>
+        <polygon id="Path" fill="#FFFFFF" fill-rule="nonzero" points="13 6 13 8 11 8 11 6"></polygon>
+    </g>
+</svg>

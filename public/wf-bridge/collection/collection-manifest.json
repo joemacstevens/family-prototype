@@ -1,0 +1,13 @@
+{
+  "entries": [
+    "components\\wf-bridge\\wf-bridge.js",
+    "components\\wf-test-component\\wf-test-component.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "1.5.0",
+    "typescriptVersion": "3.6.3"
+  },
+  "collections": [],
+  "bundles": []
+}

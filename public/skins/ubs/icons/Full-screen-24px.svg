@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>2 - General Display/24px/Full-screen</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M9.91396076,13 L11,14.0860392 L5.65011536,19.4559378 L9.91334442,19.4559378 L9.91334442,20.9922366 L3.04224822,20.9922366 L3,14.0788922 L4.53629876,14.0699304 L4.56318399,18.371567 L9.91396076,13 Z M20.9577518,3 L21,9.91334442 L19.4637012,9.92230616 L19.436816,5.62066963 L14.0860392,10.9922366 L13,9.90619736 L18.3498846,4.53629876 L14.0866556,4.53629876 L14.0866556,3 L20.9577518,3 Z" id="path-1"></path>
+    </defs>
+    <g id="2---General-Display/24px/Full-screen" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="var(--icon-color, #1c1c1c)" xlink:href="#path-1"></use>
+    </g>
+</svg>

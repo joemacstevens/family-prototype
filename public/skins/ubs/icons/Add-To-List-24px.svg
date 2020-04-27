@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.1 (89650) - https://sketch.com -->
+    <title>Add / To List</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18.8235294,12.9117647 L18.823,15.382 L21.2941176,15.3823529 L21.2941176,17.0294118 L18.823,17.029 L18.8235294,19.5 L17.1764706,19.5 L17.176,17.029 L14.7058824,17.0294118 L14.7058824,15.3823529 L17.176,15.382 L17.1764706,12.9117647 L18.8235294,12.9117647 Z M12.2352941,15.3823529 L12.2352941,17.0294118 L4,17.0294118 L4,15.3823529 L12.2352941,15.3823529 Z M15.5294118,12.0882353 L15.5294118,13.7352941 L4,13.7352941 L4,12.0882353 L15.5294118,12.0882353 Z M15.5294118,8.79411765 L15.5294118,10.4411765 L4,10.4411765 L4,8.79411765 L15.5294118,8.79411765 Z M15.5294118,5.5 L15.5294118,7.14705882 L4,7.14705882 L4,5.5 L15.5294118,5.5 Z" id="path-1"></path>
+    </defs>
+    <g id="Add-/-To-List" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Mask" fill="var(--icon-color, #1c1c1c)" xlink:href="#path-1"></use>
+        <g id="Grays-/-900" mask="url(#mask-2)" fill="var(--icon-color, #1c1c1c)">
+            <rect id="NW900" x="0" y="0" width="24" height="24"></rect>
+        </g>
+    </g>
+</svg>

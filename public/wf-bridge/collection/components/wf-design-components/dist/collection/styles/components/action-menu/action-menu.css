@@ -1,0 +1,67 @@
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+:host {
+  --flyout-min-height: 0;
+}
+
+.action-menu {
+  padding: var(--action-menu-padding, var(--spacing-xxxs, 3px));
+  min-width: var(--action-menu-min-width, 200px);
+  max-width: var(--action-menu-max-width, 300px);
+  overflow-y: auto;
+}
+.action-menu-item {
+  align-items: center;
+  background: transparent;
+  border: 0;
+  cursor: var(--action-menu-item-cursor, pointer);
+  min-height: var(--action-menu-item-min-height, 48px);
+  display: flex;
+  font-family: var(--action-menu-item-font-family);
+  font-size: var(--action-menu-item-font-size);
+  font-weight: var(--action-menu-item-font-weight);
+  line-height: var(--action-menu-item-line-height);
+  mix-blend-mode: var(--action-menu-item-blend-mode, normal);
+  padding: 0 var(--action-menu-item-horizontal-padding, var(--spacing-xs, 12px));
+  text-align: left;
+  width: 100%;
+}
+.action-menu-item:hover, .action-menu-item.trigger-active {
+  background-color: var(--action-menu-item-hover-background, rgba(230, 230, 230, 0.5));
+}
+.action-menu-item:active {
+  background-color: var(--action-menu-item-active-background, rgba(230, 230, 230, 0.3));
+}
+.action-menu-item-icon-right {
+  flex-direction: row-reverse;
+}
+.action-menu-item span {
+  flex-grow: 1;
+}
+.action-menu-item .action-menu-icon {
+  display: flex;
+}
+.action-menu-item-icon-left .action-menu-icon {
+  margin-right: var(--action-menu-item-icon-margin, 8px);
+}
+.action-menu-item-icon-right .action-menu-icon {
+  margin-left: var(--action-menu-item-icon-margin, 8px);
+}
+.action-menu .action-menu-child-flyout {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+}

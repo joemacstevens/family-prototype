@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>6 - Favicon/Popup</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,3 L2,9 L1,9 L1,1 L15,1 L15,15 L8,15 L8,14 L14,14 L14,3 L2,3 Z M10.96,5 L6.36,6.061 L7.774,7.475 L2,13.253 L2,14.668 L8.485,8.182 L9.9,9.597 L10.96,5 Z" id="path-1"></path>
+    </defs>
+    <g id="6---Favicon/Popup" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="var(--icon-color, #1c1c1c)" xlink:href="#path-1"></use>
+    </g>
+</svg>

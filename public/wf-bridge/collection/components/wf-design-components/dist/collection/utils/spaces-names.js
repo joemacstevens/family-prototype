@@ -1,0 +1,26 @@
+export const spacesNames = {
+    vertical: {
+        '1/1': 'top',
+        '1/2': 'top',
+        '2/2': 'bottom',
+        '1/3': 'top',
+        '2/3': 'middle',
+        '3/3': 'bottom',
+        '1/4': 'top',
+        '2/4': 'top',
+        '3/4': 'bottom',
+        '4/4': 'bottom',
+    },
+    horizontal: {
+        '1/1': 'left',
+        '1/2': 'left',
+        '2/2': 'right',
+        '1/3': 'left',
+        '2/3': 'center',
+        '3/3': 'right',
+        '1/4': 'left',
+        '2/4': 'left',
+        '3/4': 'right',
+        '4/4': 'right',
+    },
+};

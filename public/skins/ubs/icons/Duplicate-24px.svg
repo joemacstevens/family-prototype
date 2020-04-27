@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>2 - General Display/24px/Duplicate</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M18,6 L18,21 L3,21 L3,6 L18,6 Z M17,7 L4,7 L4,20 L17,20 L17,7 Z M21,3 L21,18 L20,18 L20,4 L6,4 L6,3 L21,3 Z" id="path-1"></path>
+    </defs>
+    <g id="2---General-Display/24px/Duplicate" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Combined-Shape" fill="var(--icon-color, #1c1c1c)" xlink:href="#path-1"></use>
+    </g>
+</svg>

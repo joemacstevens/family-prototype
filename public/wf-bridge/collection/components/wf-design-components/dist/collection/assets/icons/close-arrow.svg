@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>close-arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-close-arrow" points="1.10101627 1.33226763e-15 0 1.10455639 6 7.125 12 1.10455639 10.8989837 2.02600307e-15 6 4.91567588"></polygon>
+    </defs>
+    <g id="0702" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="BS-0702" transform="translate(-84.000000, -1674.000000)">
+            <g id="Group-6" transform="translate(80.000000, 914.000000)">
+                <g id="close-arrow" transform="translate(4.000000, 760.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-close-arrow"></use>
+                    </mask>
+                    <use id="Line-close-arrow" fill="#000000" fill-rule="evenodd" transform="translate(6.000000, 3.562500) scale(1, -1) rotate(-180.000000) translate(-6.000000, -3.562500) " xlink:href="#path-close-arrow"></use>
+                    <polygon id="Line-close-arrow" fill="#000000" fill-rule="evenodd" transform="translate(6.000000, 12.229167) scale(1, -1) rotate(-180.000000) translate(-6.000000, -12.229167) " points="1.10101627 8.66666667 0 9.77122306 6 15.7916667 12 9.77122306 10.8989837 8.66666667 6 13.5823425"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

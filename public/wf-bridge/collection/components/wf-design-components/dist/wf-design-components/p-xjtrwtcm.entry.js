@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-5f633ccc.js";const t=class{constructor(s){r(this,s)}render(){return s("div",{class:"card-header-actions"},s("slot",null))}static get style(){return".card-header-actions{-ms-flex:1;flex:1;text-align:right}.card-header-actions ::slotted(*){visibility:hidden}.card-header-actions:hover ::slotted(*){visibility:visible}"}};export{t as wf_card_header_actions};

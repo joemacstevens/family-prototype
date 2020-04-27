@@ -1,0 +1,1 @@
+import{r as t,h as r}from"./p-5f633ccc.js";const s=class{constructor(r){t(this,r)}render(){return r("h4",{class:"card-title"},r("slot",null))}static get style(){return"h4.card-title{margin:0;font-size:var(--headline-4-font-size,32px);line-height:var(--headline-4-line-height,32px)}"}};export{s as wf_card_title};

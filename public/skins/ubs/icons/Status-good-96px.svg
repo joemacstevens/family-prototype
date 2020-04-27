@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="96px" height="96px" viewBox="0 0 96 96" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>5 - Status/96px/Good</title>
+    <desc>Created with Sketch.</desc>
+    <g id="5---Status/96px/Good" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Checkmark" transform="translate(3.000000, 3.000000)">
+            <path d="M45,0 C69.8528137,0 90,20.1471863 90,45 C90,69.8528137 69.8528137,90 45,90 C20.1471863,90 0,69.8528137 0,45 C0,20.1471863 20.1471863,0 45,0 Z" id="Checkmark-Base-Color" fill="#0A7520"></path>
+            <polygon fill="#FFFFFF" points="34.04835 57.5325074 22.5006395 46.5366369 15 53.4750792 34.4525454 72 75 28.5639105 67.120747 22.0048017"></polygon>
+        </g>
+    </g>
+</svg>

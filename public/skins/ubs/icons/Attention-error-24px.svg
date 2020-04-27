@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Status / 24px / Attention / Error-24px</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M12,3 C16.971,3 21,7.029 21,12 C21,16.971 16.971,21 12,21 C7.029,21 3,16.971 3,12 C3,7.029 7.029,3 12,3" id="path-1"></path>
+    </defs>
+    <g id="Status-/-24px-/-Attention-/-Error-24px" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Attention-base-color" fill="#B32E31" xlink:href="#path-1"></use>
+        <path d="M13,16 L13,18 L11,18 L11,16 L13,16 Z M13,6 L13,14 L11,14 L11,6 L13,6 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

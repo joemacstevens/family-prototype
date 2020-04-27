@@ -1,0 +1,22 @@
+import { FormErrorMessage } from './types';
+export declare function format(first: string, middle: string, last: string): string;
+export declare function getAllNodes<T extends Element>(host: HTMLElement, selector: string): T[];
+export declare function getNode<T extends Element>(host: HTMLElement, selector: string): T;
+export declare function generateUniqueId(): string;
+export declare function removePX(string: string): number;
+export declare function setPX(number: number): string;
+export declare function showErrorMessage(error: boolean, errorMessage: FormErrorMessage, type?: string): boolean;
+export declare function prepareErrorTooltip(error: boolean, errorMessage: FormErrorMessage): {
+    placement: import("../components/wf-tooltip/types").TooltipPlacement;
+    class: string;
+    opened: boolean;
+    type: "error";
+    trigger: "none";
+    text: string;
+};
+export declare function detectIE(): number | false;
+export declare function setupTimeout(callback: any, time: any): () => void;
+export declare function delayTimeout(time: any): Promise<unknown>;
+export declare function parseArrayProperty(property: any): any;
+export declare function animate(element: any, start: any, end: any, prop?: string, duration?: number): void;
+export declare function stopPropagation(e: Event): void;

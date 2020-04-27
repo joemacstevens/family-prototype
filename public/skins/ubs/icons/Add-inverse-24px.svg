@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Mask</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="2---General-Display/24px/Inverse" fill="var(--icon-color, #1c1c1c)">
+            <path d="M12,0 C18.627417,0 24,5.372583 24,12 C24,18.627417 18.627417,24 12,24 C5.372583,24 0,18.627417 0,12 C0,5.372583 5.372583,0 12,0 Z M12.6666667,6 L11.3333333,6 L11.333,11.333 L6,11.3333333 L6,12.6666667 L11.333,12.666 L11.3333333,18 L12.6666667,18 L12.666,12.666 L18,12.6666667 L18,11.3333333 L12.666,11.333 L12.6666667,6 Z" id="Mask"></path>
+        </g>
+    </g>
+</svg>

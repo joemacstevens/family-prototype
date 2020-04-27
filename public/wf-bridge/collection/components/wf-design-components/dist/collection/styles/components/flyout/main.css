@@ -1,0 +1,188 @@
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+:host {
+  display: inline-block;
+}
+
+.flyout {
+  position: relative;
+  font-family: var(--flyout-font-family);
+  color: var(--flyout-text-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c))));
+}
+.flyout-trigger {
+  cursor: pointer;
+}
+.flyout-trigger-none {
+  cursor: auto;
+}
+.flyout-content {
+  position: relative;
+  background: var(--flyout-background, #fff);
+  border-color: var(--flyout-background, #fff);
+  box-shadow: var(--flyout-box-shadow, var(--flyout-shadow, 2px 4px 8px 0) var(--flyout-shadow-color, rgba(28, 28, 28, 0.5)));
+  min-height: var(--flyout-min-height, 200px);
+  display: flex;
+}
+.flyout-content-wrapper {
+  box-sizing: border-box;
+  position: fixed;
+  z-index: var(--flyout-z-index, 1000);
+  top: 100%;
+  padding: calc(var(--flyout-distance, var(--spacing-xxs, 6px)) + var(--flyout-arrow-size, 8px));
+  min-width: var(--flyout-min-width, 180px);
+  max-width: var(--flyout-max-width, 70%);
+  width: var(--flyout-width, auto);
+  white-space: normal;
+  word-break: break-word;
+}
+.flyout-content-wrapper .arrow-mask {
+  display: block;
+  position: absolute;
+  height: calc(var(--flyout-arrow-size, 8px) + var(--spacing-xxs, 6px));
+  width: calc(var(--flyout-arrow-size, 8px) + var(--spacing-xxs, 6px));
+}
+.flyout-content-wrapper .arrow-mask .arrow-pointer {
+  position: absolute;
+  left: auto;
+  top: auto;
+  width: calc(var(--flyout-arrow-size, 8px) * 1.41);
+  height: calc(var(--flyout-arrow-size, 8px) * 1.41);
+  background: var(--flyout-background, #fff);
+  box-shadow: var(--flyout-shadow, 2px 4px 8px 0) var(--flyout-shadow-color, rgba(28, 28, 28, 0.5));
+  transform: rotate(45deg);
+}
+.flyout-content-wrapper.no-arrow {
+  padding: var(--flyout-distance, var(--spacing-xxs, 6px));
+}
+.flyout-content-wrapper.no-arrow .arrow-mask,
+.flyout-content-wrapper.no-arrow .arrow-pointer {
+  display: none;
+}
+.flyout-content-slot-wrapper {
+  padding: var(--flyout-padding, var(--spacing-xxs, 6px));
+  background: var(--flyout-background, #fff);
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+.flyout-content-left-top .arrow-mask {
+  right: 100%;
+  top: 0;
+  height: 100%;
+}
+.flyout-content-left-top .arrow-mask .arrow-pointer {
+  right: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  top: unset;
+}
+.flyout-content-left-bottom .arrow-mask {
+  right: 100%;
+  bottom: 0;
+  height: 100%;
+}
+.flyout-content-left-bottom .arrow-mask .arrow-pointer {
+  right: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  bottom: unset;
+}
+.flyout-content-right-top .arrow-mask {
+  left: 100%;
+  top: 0;
+  height: 100%;
+}
+.flyout-content-right-top .arrow-mask .arrow-pointer {
+  left: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  top: unset;
+}
+.flyout-content-right-bottom .arrow-mask {
+  left: 100%;
+  bottom: 0;
+  height: 100%;
+}
+.flyout-content-right-bottom .arrow-mask .arrow-pointer {
+  left: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  bottom: unset;
+}
+.flyout-content-top-left .arrow-mask {
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+}
+.flyout-content-top-left .arrow-mask .arrow-pointer {
+  bottom: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  left: var(--flyout-arrow-size, 8px);
+}
+.flyout-content-top-center .arrow-mask {
+  bottom: 100%;
+  left: 0;
+  width: 100%;
+}
+.flyout-content-top-center .arrow-mask .arrow-pointer {
+  bottom: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  left: calc(50% - calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+}
+.flyout-content-top-right .arrow-mask {
+  bottom: 100%;
+  right: 0;
+  width: 100%;
+}
+.flyout-content-top-right .arrow-mask .arrow-pointer {
+  bottom: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  right: var(--flyout-arrow-size, 8px);
+}
+.flyout-content-middle-left .arrow-mask {
+  top: 100%;
+  right: 0;
+  height: 100%;
+}
+.flyout-content-middle-left .arrow-mask .arrow-pointer {
+  top: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  right: 100%;
+}
+.flyout-content-middle-right .arrow-mask {
+  top: 100%;
+  left: 0;
+  height: 100%;
+}
+.flyout-content-middle-right .arrow-mask .arrow-pointer {
+  top: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  left: 100%;
+}
+.flyout-content-bottom-left .arrow-mask {
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+.flyout-content-bottom-left .arrow-mask .arrow-pointer {
+  top: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  left: var(--flyout-arrow-size, 8px);
+}
+.flyout-content-bottom-center .arrow-mask {
+  top: 100%;
+  left: 0;
+  width: 100%;
+}
+.flyout-content-bottom-center .arrow-mask .arrow-pointer {
+  top: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  left: calc(50% - calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+}
+.flyout-content-bottom-right .arrow-mask {
+  top: 100%;
+  right: 0;
+  width: 100%;
+}
+.flyout-content-bottom-right .arrow-mask .arrow-pointer {
+  top: calc(-1 * calc(var(--flyout-arrow-size, 8px) * 1.41)/ 2);
+  right: var(--flyout-arrow-size, 8px);
+}

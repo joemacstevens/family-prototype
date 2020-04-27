@@ -1,0 +1,1 @@
+import{r,h as t}from"./p-5f633ccc.js";const o=class{constructor(t){r(this,t)}render(){return t("footer",{class:"card-footer"},t("slot",null))}static get style(){return".card-footer{display:-ms-flexbox;display:flex;-ms-flex-pack:justify;justify-content:space-between;padding:var(--card-footer-padding,0)}"}};export{o as wf_card_footer};

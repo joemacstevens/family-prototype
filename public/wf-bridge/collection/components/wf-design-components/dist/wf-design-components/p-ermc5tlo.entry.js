@@ -1,0 +1,1 @@
+import{r as s}from"./p-5f633ccc.js";const o=class{constructor(o){s(this,o),this.disabled=!1,this.checked=!1}};export{o as wf_radio_option};

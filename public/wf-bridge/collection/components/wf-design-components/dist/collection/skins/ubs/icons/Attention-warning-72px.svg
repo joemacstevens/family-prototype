@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>5 - Status/72px/Attention/Warning</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M36,3 C54.227,3 69,17.773 69,36 C69,54.227 54.227,69 36,69 C17.773,69 3,54.227 3,36 C3,17.773 17.773,3 36,3" id="path-1"></path>
+    </defs>
+    <g id="5---Status/72px/Attention/Warning" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Attention-base-color" fill="#F2BB3A" xlink:href="#path-1"></use>
+        <path d="M40,51 L40,60 L32,60 L32,51 L40,51 Z M40,12 L40,45 L32,45 L32,12 L40,12 Z" id="Combined-Shape" fill="#FFFFFF"></path>
+    </g>
+</svg>

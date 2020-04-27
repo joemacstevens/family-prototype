@@ -1,0 +1,86 @@
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+:host {
+  display: block;
+}
+
+.process-navigation {
+  display: flex;
+  font-family: var(--process-navigation-font-family);
+  font-size: var(--process-navigation-font-size, var(--font-size-small, 0.9em));
+  overflow-x: auto;
+}
+
+.process-navigation-step {
+  border-top: var(--process-navigation-step-border-width, var(--spacing-xxs, 6px)) solid;
+  flex: 1 1 0px;
+  min-width: var(--process-navigation-step-min-width, 150px);
+  outline: none;
+}
+
+.process-navigation-step-label {
+  line-height: var(--process-navigation-step-line-height, 25px);
+  vertical-align: middle;
+}
+
+.process-navigation-step + .process-navigation-step {
+  margin-left: var(--process-navigation-step-margin, var(--spacing-xxs, 6px));
+}
+
+.process-navigation-step .process-navigation-step-icon {
+  --icon-padding-xs: 0;
+  display: inline-block;
+  height: var(--icon-size-xs, 16px);
+  margin-right: 6px;
+  vertical-align: middle;
+}
+
+.process-navigation-freeflow .process-navigation-step:hover:not(.process-navigation-step-disabled),
+.process-navigation-freeflow .process-navigation-step:focus:not(.process-navigation-step-disabled) {
+  --icon-primary-color: var(--process-navigation-step-hover-icon-color, var(--plum, #5a6f89));
+  border-top-color: var(--process-navigation-step-hover-border-color, var(--plum, #5a6f89));
+  color: var(--process-navigation-step-hover-font-color, var(--plum, #5a6f89));
+  font-weight: var(--process-navigation-step-hover-font-weight, var(--font-weight-bold, var(--font-weight, normal)));
+  cursor: pointer;
+}
+
+.process-navigation-step-active {
+  --icon-primary-color: var(--process-navigation-step-active-icon-color, var(--positive, #0a7520));
+  border-top-color: var(--process-navigation-step-active-border-color, var(--positive, #0a7520));
+  color: var(--process-navigation-step-active-font-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c))));
+  font-weight: var(--process-navigation-step-active-font-weight, var(--font-weight-bold, var(--font-weight, normal)));
+}
+
+.process-navigation-step-completed {
+  --icon-primary-color: var(--process-navigation-step-completed-icon-color, var(--positive, #0a7520));
+  border-top-color: var(--process-navigation-step-completed-border-color, var(--positive, #0a7520));
+  color: var(--process-navigation-step-completed-font-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c))));
+  font-weight: var(--process-navigation-step-completed-font-weight, var(--font-weight-normal, var(--font-weight, normal)));
+}
+
+.process-navigation-step-started {
+  --icon-primary-color: var(--process-navigation-step-started-icon-color, var(--plum, #5a6f89));
+  border-top-color: var(--process-navigation-step-started-border-color, var(--plum, #5a6f89));
+  color: var(--process-navigation-step-started-font-color, var(--plum, #5a6f89));
+  font-weight: var(--process-navigation-step-started-font-weight, var(--font-weight-normal, var(--font-weight, normal)));
+}
+
+.process-navigation-step-uncompleted {
+  --icon-primary-color: var(--process-navigation-step-uncompleted-icon-color, var(--lavender, #bdc6d4));
+  border-top-color: var(--process-navigation-step-uncompleted-border-color, var(--lavender, #bdc6d4));
+  color: var(--process-navigation-step-uncompleted-font-color, var(--plum, #5a6f89));
+  font-weight: var(--process-navigation-step-uncompleted-font-weight, var(--font-weight-normal, var(--font-weight, normal)));
+}

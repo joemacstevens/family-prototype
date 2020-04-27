@@ -1,0 +1,1 @@
+import{r,h as s}from"./p-5f633ccc.js";const t=class{constructor(s){r(this,s)}render(){return s("main",{class:"card-body"},s("slot",null))}static get style(){return".card-body{-ms-flex-positive:1;flex-grow:1;min-height:var(--card-body-min-height,200px);padding:var(--card-body-padding,var(--spacing-m,36px) 0 0)}"}};export{t as wf_card_body};

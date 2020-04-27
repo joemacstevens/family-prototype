@@ -1,0 +1,25 @@
+.member img {
+    max-width: 100%;
+    object-fit: cover
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 5px solid #000000;
+    background-color: transparent;
+    overflow: hidden;
+    width: 50%;
+}
+
+.member {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 1.5em;
+}
+
+.name {
+    line-height: 0;
+    margin-bottom: 15px;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>6 - Favicon/Home</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.5555625,8.1244375 L8,1.11110938 L0.4444375,8.1244375 L1.66221875,9.30665625 L2.4444375,8.58665625 L2.4444375,14.888875 L13.5555469,14.888875 L13.5555469,8.58665625 L14.3377656,9.30665625 L15.5555625,8.1244375 Z M12.6933281,14.0444375 L3.30665625,14.0444375 L3.30665625,7.82221875 L7.99998437,3.47554688 L12.6933281,7.78665625 L12.6933281,14.0444375 Z" id="path-1"></path>
+    </defs>
+    <g id="6---Favicon/Home" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Shape" fill="var(--icon-color, #1c1c1c)" xlink:href="#path-1"></use>
+    </g>
+</svg>

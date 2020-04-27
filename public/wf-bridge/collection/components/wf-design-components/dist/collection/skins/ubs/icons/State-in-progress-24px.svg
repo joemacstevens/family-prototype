@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>5 - Status/Left Navigation/24px/State-in-progress</title>
+    <desc>Created with Sketch.</desc>
+    <g id="5---Status/Left-Navigation/24px/State-in-progress" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Fill" fill="#FFFFFF" cx="12" cy="12" r="8"></circle>
+        <path d="M3,12 C3,7.029 7.029,3 12,3 C16.971,3 21,7.029 21,12 C21,16.8822321 17.1136081,20.8558068 12.2653848,20.9961633 L12,21 L12,21 C7.029,21 3,16.971 3,12 Z M12,4.5 C7.8575,4.5 4.5,7.8575 4.5,12 C4.5,16.1425 7.8575,19.5 12,19.5 L12,4.5 L12,4.5 Z" id="Base-Color" fill="#0A7520"></path>
+    </g>
+</svg>

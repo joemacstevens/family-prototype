@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>2 - General Display/24px/Chart</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M2,21 L22,21 L22,22 L2,22 L2,21 Z M8,7 L8,19 L4,19 L4,7 L8,7 Z M14,2 L14,19 L10,19 L10,2 L14,2 Z M20,11 L20,19 L16,19 L16,11 L20,11 Z M7,8 L5,8 L5,18 L7,18 L7,8 Z M13,3 L11,3 L11,18 L13,18 L13,3 Z M19,12 L17,12 L17,18 L19,18 L19,12 Z" id="path-1"></path>
+    </defs>
+    <g id="2---General-Display/24px/Chart" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <mask id="mask-2" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+        <use id="Icon" fill="var(--icon-color, #1c1c1c)" xlink:href="#path-1"></use>
+    </g>
+</svg>

@@ -1,0 +1,22 @@
+.member-details {
+    max-width: 400px;
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.family-drawer .member-details {
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.member-details .avatar{
+width: 100%;
+}
+
+.member-details .avatar img {
+    max-width: 100%;
+}
+
+.flyout-trigger {
+    outline: none;
+}

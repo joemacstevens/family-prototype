@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="16px" viewBox="0 0 12 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55 (78076) - https://sketchapp.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="toggle-with-lock" transform="translate(-10.000000, -3.000000)">
+            <g id="Group" transform="translate(10.800000, 4.600000)">
+                <path d="M0.65,13.6 C0.2912,13.6 7.27418126e-13,13.3243077 7.27418126e-13,12.9846154 L7.27418126e-13,6.21538462 C7.27418126e-13,5.87569231 0.2912,5.6 0.65,5.6 L9.75,5.6 C10.1088,5.6 10.4,5.87569231 10.4,6.21538462 L10.4,12.9846154 C10.4,13.3243077 10.1088,13.6 9.75,13.6 L0.65,13.6 Z" id="Path" stroke="#000000" stroke-width="1.56" stroke-linecap="round"></path>
+                <path d="M6.4,8.96 C6.4,8.42976 6.04186667,8 5.6,8 C5.15813333,8 4.8,8.42976 4.8,8.96 C4.8,9.2432 4.90426667,9.49536 5.06666667,9.67104 L5.06666667,10.56 C5.06666667,10.91328 5.3056,11.2 5.6,11.2 C5.8944,11.2 6.13333333,10.91328 6.13333333,10.56 L6.13333333,9.67104 C6.29573333,9.49536 6.4,9.2432 6.4,8.96 Z" id="Path" fill="#000000" fill-rule="nonzero"></path>
+                <path d="M8.8,5.6 C8.8,5.25576471 8.8,3.63835294 8.8,3.29411765 C8.8,1.47477647 7.36736,0 5.6,0 C3.83264,0 2.4,1.47477647 2.4,3.29411765 C2.4,3.63835294 2.4,5.25576471 2.4,5.6" id="Path" stroke="#000000" stroke-width="1.56" stroke-linecap="round"></path>
+            </g>
+        </g>
+    </g>
+</svg>

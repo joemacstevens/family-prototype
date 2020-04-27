@@ -1,0 +1,1 @@
+const n=async(n,r)=>{let t;return r&&(t=((n,r)=>window.config.assets[`${n}-${r}`])(n,r)),t||(t=(n=>{const r=window.config.assets[n];if(!r)throw new Error(`Path for ${n} is not defined.`);return r})(n)),(async n=>{const r=await fetch(n);if(200!==r.status)throw new Error("Cannot find file under provided path.");return r.text()})(t)};export{n as g};

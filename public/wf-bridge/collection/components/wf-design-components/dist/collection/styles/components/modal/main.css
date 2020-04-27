@@ -1,0 +1,107 @@
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+.modal {
+  z-index: var(--modal-z-index, 100);
+}
+
+.modal-backdrop {
+  background-color: var(--modal-backdrop-background, rgba(0, 0, 0, 0.8));
+}
+
+.modal,
+.modal-backdrop {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+}
+
+.modal-dialog {
+  box-sizing: border-box;
+  box-shadow: var(--modal-shadow, 0 0 7px 7px rgba(0, 0, 0, 0.2));
+  background-color: var(--modal-content-background, white);
+  border-radius: var(--modal-border-radius, 0);
+  font-family: var(--modal-font-family);
+  height: auto;
+  left: 50%;
+  width: var(--modal-width, 60%);
+  padding: var(--modal-padding, var(--spacing-m, 36px) var(--spacing-l, 54px));
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  max-height: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .modal-dialog {
+    height: 80%;
+  }
+}
+.modal-header {
+  flex-shrink: 0;
+  background: var(--modal-header-background, none);
+  border-bottom: var(--modal-header-border, 2px solid);
+  color: var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c)));
+  font-family: var(--headline-font-family, var(--font-family));
+  font-size: var(--headline-4-font-size, 32px);
+  font-weight: var(--headline-font-weight, var(--font-weight-bold, var(--font-weight, normal)));
+  padding: var(--modal-header-padding, 0 0 var(--spacing-xs, 12px));
+}
+
+.modal-header h4 {
+  color: var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c)));
+  margin: 0;
+}
+
+.modal-header button.close {
+  color: var(--modal-close-icon-color, #000);
+  background: none;
+  border: none;
+  cursor: var(--cursor, pointer);
+  float: right;
+  font-size: var(--headline-4-font-size, 32px);
+  margin-right: calc(0px - var(--spacing-s, 24px));
+  margin-top: calc(0px - var(--spacing-s, 24px));
+}
+
+.modal-body {
+  flex-shrink: 1;
+  flex-basis: 90%;
+  overflow-y: auto;
+  color: var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c)));
+  display: block;
+  min-height: var(--modal-body-min-height, 170px);
+  padding: var(--modal-body-padding, 0);
+  margin: var(--modal-body-margin, var(--spacing-s, 24px) 0 var(--spacing-s, 24px) 0);
+}
+
+.modal-footer {
+  flex-shrink: 0;
+  padding: var(--modal-footer-padding, 0);
+  text-align: var(--modal-footer-align, left);
+  display: flex;
+  justify-content: var(--modal-footer-justify-content, flex-end);
+}
+
+.modal-footer:after {
+  content: "";
+  clear: both;
+  display: table;
+}

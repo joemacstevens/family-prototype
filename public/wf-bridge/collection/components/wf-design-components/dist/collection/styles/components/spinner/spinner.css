@@ -1,0 +1,86 @@
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+@keyframes spinner-border {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.spinner-wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: var(--spinner-z-index, 600);
+  background: var(--spinner-background, rgba(255, 255, 255, 0.8));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.spinner-wrapper .spinner-msg {
+  color: var(--spinner-msg-color);
+  font-family: var(--spinner-msg-font-family);
+  font-size: var(--spinner-msg-font-size);
+  font-weight: var(--spinner-msg-font-weight);
+  text-transform: var(--spinner-text-transform, var(--spinner-msg-text-transform));
+}
+.spinner-wrapper .spinner {
+  width: var(--spinner-size, var(--spacing-m, 36px));
+  height: var(--spinner-size, var(--spacing-m, 36px));
+  border-color: var(--spinner-color, var(--spinner-foreground-ring-color, #444444));
+  border-top-color: transparent;
+  border-width: var(--spinner-thickness, var(--spacing-xxxs, 3px));
+  border-radius: 50%;
+  border-style: solid;
+  -webkit-animation: spinner-border 1.2s linear infinite;
+  animation: spinner-border 1.2s linear infinite;
+}
+.spinner-wrapper .spinner-graphic {
+  width: var(--spinner-size, var(--spacing-m, 36px));
+  height: var(--spinner-size, var(--spacing-m, 36px));
+}
+.spinner-wrapper .spinner-background-ring {
+  stroke: var(--spinner-background-ring-color, #f5f5f5);
+  stroke-width: var(--spinner-thickness, var(--spacing-xxxs, 3px));
+  width: var(--spinner-size, var(--spacing-m, 36px));
+  height: var(--spinner-size, var(--spacing-m, 36px));
+}
+.spinner-wrapper .spinner-foreground-ring {
+  width: var(--spinner-size, var(--spacing-m, 36px));
+  height: var(--spinner-size, var(--spacing-m, 36px));
+  fill: transparent;
+  stroke: var(--spinner-color, var(--spinner-foreground-ring-color, #444444));
+  stroke-width: var(--spinner-thickness, var(--spacing-xxxs, 3px));
+  animation: spinner 1.6666666667s linear infinite;
+}
+@keyframes spinner {
+  0% {
+    transform-origin: center;
+    transform: rotate(0deg);
+    stroke-dasharray: 0 144.5132620651;
+  }
+  50% {
+    transform-origin: center;
+    transform: rotate(190deg);
+    stroke-dasharray: 115.6106096521 28.902652413;
+  }
+  100% {
+    transform-origin: center;
+    transform: rotate(720deg);
+    stroke-dasharray: 0 144.5132620651;
+  }
+}

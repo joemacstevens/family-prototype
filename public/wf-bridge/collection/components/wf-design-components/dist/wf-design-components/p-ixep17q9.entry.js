@@ -1,0 +1,1 @@
+import{r as s}from"./p-5f633ccc.js";const t=class{constructor(t){s(this,t),this.disabled=!1,this.selected=!1}};export{t as wf_select_option};

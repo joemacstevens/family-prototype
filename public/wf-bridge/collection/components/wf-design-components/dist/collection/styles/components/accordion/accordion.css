@@ -1,0 +1,82 @@
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+.expansion-panel {
+  box-sizing: var(--panel-box-sizing, content-box);
+  box-shadow: var(--panel-box-shadow, none);
+  display: block;
+  margin: 0;
+  padding: 0;
+  overflow: visible;
+  transition: padding 225ms cubic-bezier(0.4, 0, 0.2, 1), box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1);
+  background: var(--panel-background, #fff);
+  font-family: var(--panel-font-family);
+  color: var(--panel-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c))));
+}
+.expansion-panel-header {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  padding: var(--panel-header-padding, var(--spacing-xs, 12px) var(--spacing-s, 24px));
+  min-height: var(--panel-header-height, 48px);
+  background: var(--panel-header-background, inherit);
+  border-radius: var(--panel-header-border-radius, 0px);
+  border-bottom: var(--panel-header-border, 3px solid #000000);
+  font-size: var(--panel-header-font-size, var(--font-size-small, 0.9em));
+  font-weight: var(--panel-header-font-weight, var(--font-weight-normal, var(--font-weight, normal)));
+  color: var(--panel-header-color, inherit);
+  cursor: pointer;
+}
+.expansion-panel-header:hover {
+  background: var(--panel-header-background-hover, #f5f5f5);
+}
+.expansion-panel-header:active {
+  background: var(--panel-header-background-pressed, #bebebe);
+}
+.expansion-panel-content {
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  visibility: hidden;
+  height: 0px;
+}
+.expansion-panel-content-active {
+  visibility: visible;
+  height: auto;
+  padding: var(--panel-content-bottom-padding, var(--spacing-xs, 12px));
+}
+.expansion-panel .panel-title-hidden {
+  visibility: hidden;
+}
+.expansion-panel .arrow {
+  border: solid var(--panel-arrow-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c))));
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: var(--panel-arrow-size, 3px);
+}
+.expansion-panel .arrow.arrow-up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+.expansion-panel .arrow.arrow-down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.expansion-panel-expanded {
+  padding-bottom: var(--panel-padding-bottom, var(--spacing-xs, 12px));
+}

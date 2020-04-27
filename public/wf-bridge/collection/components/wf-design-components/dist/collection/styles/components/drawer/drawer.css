@@ -1,0 +1,477 @@
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+.header-1,
+h1 {
+  font-family: var(--headline-1-font-family, var(--headline-font-family));
+  font-weight: var(--headline-1-font-weight, var(--headline-font-weight));
+  font-size: var(--headline-1-font-size, 64px);
+  letter-spacing: var(--headline-1-letter-spacing, normal);
+  line-height: var(--headline-1-line-height, 64px);
+  color: var(--headline-color);
+  margin-bottom: var(--headline-margin-bottom, var(--spacing-m, 36px));
+}
+
+.header-2,
+h2 {
+  font-family: var(--headline-2-font-family, var(--headline-font-family));
+  font-weight: var(--headline-2-font-weight, var(--headline-font-weight));
+  font-size: var(--headline-2-font-size, 44px);
+  letter-spacing: var(--headline-2-letter-spacing, normal);
+  line-height: var(--headline-2-line-height, 44px);
+  color: var(--headline-color);
+  margin-bottom: var(--headline-margin-bottom, var(--spacing-m, 36px));
+}
+
+.header-3,
+h3 {
+  font-family: var(--headline-3-font-family, var(--headline-font-family));
+  font-weight: var(--headline-3-font-weight, var(--headline-font-weight));
+  font-size: var(--headline-3-font-size, 36px);
+  letter-spacing: var(--headline-3-letter-spacing, normal);
+  line-height: var(--headline-3-line-height, 36px);
+  color: var(--headline-color);
+  margin-bottom: var(--headline-margin-bottom, var(--spacing-m, 36px));
+}
+
+.header-4,
+h4 {
+  font-family: var(--headline-4-font-family, var(--headline-font-family));
+  font-weight: var(--headline-4-font-weight, var(--headline-font-weight));
+  font-size: var(--headline-4-font-size, 32px);
+  letter-spacing: var(--headline-4-letter-spacing, normal);
+  line-height: var(--headline-4-line-height, 32px);
+  color: var(--headline-color);
+  margin-bottom: var(--headline-margin-bottom, var(--spacing-m, 36px));
+}
+
+.header-5,
+h5 {
+  font-family: var(--headline-5-font-family, var(--headline-font-family));
+  font-weight: var(--headline-5-font-weight, var(--headline-font-weight));
+  font-size: var(--headline-5-font-size, 24px);
+  letter-spacing: var(--headline-5-letter-spacing, normal);
+  line-height: var(--headline-5-line-height, 24px);
+  color: var(--headline-color);
+  margin-bottom: var(--headline-margin-bottom, var(--spacing-m, 36px));
+}
+
+.header-6,
+h6 {
+  font-family: var(--headline-6-font-family, var(--headline-font-family));
+  font-weight: var(--headline-6-font-weight, var(--headline-font-weight));
+  font-size: var(--headline-6-font-size, 18px);
+  letter-spacing: var(--headline-6-letter-spacing, normal);
+  line-height: var(--headline-6-line-height, 20px);
+  color: var(--headline-color);
+  margin-bottom: var(--headline-margin-bottom, var(--spacing-m, 36px));
+}
+
+.header-7,
+h7 {
+  font-family: var(--headline-7-font-family, var(--headline-font-family));
+  font-weight: var(--headline-7-font-weight, var(--headline-font-weight));
+  font-size: var(--headline-7-font-size, 18px);
+  letter-spacing: var(--headline-7-letter-spacing, normal);
+  line-height: var(--headline-7-line-height, 20px);
+  color: var(--headline-color);
+  margin-bottom: var(--headline-margin-bottom, var(--spacing-m, 36px));
+}
+
+.header-inverse {
+  color: var(--headline-inverse-color, var(--color-text-inverse, var(--text-inverse-color, var(--white, #ffffff))));
+}
+
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+/* Deprecated */
+.divider {
+  border-width: 0px;
+  border-style: var(--divider-border-style, solid);
+  border-color: var(--divider-border-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c))));
+  padding: var(--divider-padding);
+  margin: var(--divider-margin);
+  /* Deprecated */
+  /* Deprecated */
+  /* Deprecated */
+  /* Deprecated */
+  /* Deprecated */
+  /* Deprecated */
+}
+.divider-1 {
+  border-bottom-width: var(--divider-01-width, var(--divider-1-width, var(--spacing-xxs, 6px)));
+}
+.divider-1.divider-top {
+  border-bottom-width: 0px;
+  border-top-width: var(--divider-01-width, var(--divider-1-width, var(--spacing-xxs, 6px)));
+}
+.divider-1.divider-left {
+  border-bottom-width: 0px;
+  border-left-width: var(--divider-01-width, var(--divider-1-width, var(--spacing-xxs, 6px)));
+}
+.divider-1.divider-right {
+  border-bottom-width: 0px;
+  border-right-width: var(--divider-01-width, var(--divider-1-width, var(--spacing-xxs, 6px)));
+}
+.divider-01 {
+  border-bottom-width: var(--divider-01-width, var(--divider-1-width, var(--spacing-xxs, 6px)));
+}
+.divider-01.divider-top {
+  border-bottom-width: 0px;
+  border-top-width: var(--divider-01-width, var(--divider-1-width, var(--spacing-xxs, 6px)));
+}
+.divider-01.divider-left {
+  border-bottom-width: 0px;
+  border-left-width: var(--divider-01-width, var(--divider-1-width, var(--spacing-xxs, 6px)));
+}
+.divider-01.divider-right {
+  border-bottom-width: 0px;
+  border-right-width: var(--divider-01-width, var(--divider-1-width, var(--spacing-xxs, 6px)));
+}
+.divider-2 {
+  border-bottom-width: var(--divider-02-width, var(--divider-2-width, var(--spacing-xxxs, 3px)));
+}
+.divider-2.divider-top {
+  border-bottom-width: 0px;
+  border-top-width: var(--divider-02-width, var(--divider-2-width, var(--spacing-xxxs, 3px)));
+}
+.divider-2.divider-left {
+  border-bottom-width: 0px;
+  border-left-width: var(--divider-02-width, var(--divider-2-width, var(--spacing-xxxs, 3px)));
+}
+.divider-2.divider-right {
+  border-bottom-width: 0px;
+  border-right-width: var(--divider-02-width, var(--divider-2-width, var(--spacing-xxxs, 3px)));
+}
+.divider-02 {
+  border-bottom-width: var(--divider-02-width, var(--divider-2-width, var(--spacing-xxxs, 3px)));
+}
+.divider-02.divider-top {
+  border-bottom-width: 0px;
+  border-top-width: var(--divider-02-width, var(--divider-2-width, var(--spacing-xxxs, 3px)));
+}
+.divider-02.divider-left {
+  border-bottom-width: 0px;
+  border-left-width: var(--divider-02-width, var(--divider-2-width, var(--spacing-xxxs, 3px)));
+}
+.divider-02.divider-right {
+  border-bottom-width: 0px;
+  border-right-width: var(--divider-02-width, var(--divider-2-width, var(--spacing-xxxs, 3px)));
+}
+.divider-3 {
+  border-bottom-width: var(--divider-03-width, var(--divider-3-width, 1px));
+}
+.divider-3.divider-top {
+  border-bottom-width: 0px;
+  border-top-width: var(--divider-03-width, var(--divider-3-width, 1px));
+}
+.divider-3.divider-left {
+  border-bottom-width: 0px;
+  border-left-width: var(--divider-03-width, var(--divider-3-width, 1px));
+}
+.divider-3.divider-right {
+  border-bottom-width: 0px;
+  border-right-width: var(--divider-03-width, var(--divider-3-width, 1px));
+}
+.divider-03 {
+  border-bottom-width: var(--divider-03-width, var(--divider-3-width, 1px));
+}
+.divider-03.divider-top {
+  border-bottom-width: 0px;
+  border-top-width: var(--divider-03-width, var(--divider-3-width, 1px));
+}
+.divider-03.divider-left {
+  border-bottom-width: 0px;
+  border-left-width: var(--divider-03-width, var(--divider-3-width, 1px));
+}
+.divider-03.divider-right {
+  border-bottom-width: 0px;
+  border-right-width: var(--divider-03-width, var(--divider-3-width, 1px));
+}
+.divider-04 {
+  border-bottom-width: var(--divider-04-width, 1px);
+}
+.divider-04.divider-top {
+  border-bottom-width: 0px;
+  border-top-width: var(--divider-04-width, 1px);
+}
+.divider-04.divider-left {
+  border-bottom-width: 0px;
+  border-left-width: var(--divider-04-width, 1px);
+}
+.divider-04.divider-right {
+  border-bottom-width: 0px;
+  border-right-width: var(--divider-04-width, 1px);
+}
+.divider-05 {
+  border-bottom-width: var(--divider-05-width, 1px);
+}
+.divider-05.divider-top {
+  border-bottom-width: 0px;
+  border-top-width: var(--divider-05-width, 1px);
+}
+.divider-05.divider-left {
+  border-bottom-width: 0px;
+  border-left-width: var(--divider-05-width, 1px);
+}
+.divider-05.divider-right {
+  border-bottom-width: 0px;
+  border-right-width: var(--divider-05-width, 1px);
+}
+.divider-primary {
+  border-color: var(--divider-primary-border-color, var(--divider-border-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c)))));
+}
+.divider-secondary {
+  border-color: var(--divider-secondary-border-color, var(--divider-border-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c)))));
+}
+.divider-tertiary {
+  border-color: var(--divider-tertiary-border-color, var(--divider-border-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c)))));
+}
+.divider-quaternary {
+  border-color: var(--divider-quaternary-border-color, var(--divider-border-color, var(--color-text-primary, var(--text-primary-color, var(--text-color, #1c1c1c)))));
+}
+.divider-color-01 {
+  border-color: var(--divider-06-color, #000000);
+}
+.divider-color-02 {
+  border-color: var(--divider-07-color, #ffffff);
+}
+.divider-color-03 {
+  border-color: var(--divider-05-color, #bebebe);
+}
+.divider-color-04 {
+  border-color: var(--divider-08-color, #9a3d37);
+}
+.divider-color-05 {
+  border-color: var(--divider-09-color, #009bd2);
+}
+
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+/* Breakpoints are staticly defined for now */
+/* That's because CSS variables don't support usage in media queries */
+/* To be moved to JS config in the future */
+/* DEPRECATED! Color palette */
+/* Please use CSS variables and direct values instead of these */
+/* Cursor */
+/* Font */
+/* Text color */
+/* Background colors */
+/* Spacings */
+/* Grids */
+/* Headlines */
+/* DEPRECATED!  */
+/* States of items */
+/* Highlight */
+.drawer,
+.drawer * {
+  box-sizing: border-box;
+}
+
+.drawer {
+  z-index: var(--drawer-z-index, 9999);
+  position: fixed;
+}
+@keyframes drawerOpen {
+  100% {
+    right: 0;
+  }
+}
+.drawer-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--drawer-backdrop-background, var(--backdrop-background, rgba(0, 0, 0, 0.8)));
+}
+.drawer-position-top .drawer-dialog {
+  height: var(--drawer-horizontal-height, auto);
+  width: var(--drawer-horizontal-width, auto);
+  top: calc(0px - var(--drawer-horizontal-width, auto));
+  bottom: auto;
+  left: 0;
+  right: 0;
+}
+.drawer-position-bottom .drawer-dialog {
+  height: var(--drawer-horizontal-height, auto);
+  width: var(--drawer-horizontal-width, auto);
+  top: auto;
+  bottom: calc(0px - var(--drawer-horizontal-width, auto));
+  left: 0;
+  right: 0;
+}
+.drawer-position-left .drawer-dialog {
+  height: var(--drawer-height, auto);
+  width: var(--drawer-standard-width, var(--drawer-width, 50%));
+  top: 0;
+  bottom: 0;
+  left: calc(0px - var(--drawer-standard-width, var(--drawer-width, 50%)));
+  right: auto;
+}
+.drawer-position-right .drawer-dialog {
+  height: var(--drawer-height, auto);
+  width: var(--drawer-standard-width, var(--drawer-width, 50%));
+  top: 0;
+  bottom: 0;
+  left: auto;
+  right: calc(0px - var(--drawer-standard-width, var(--drawer-width, 50%)));
+}
+.drawer-dialog {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  width: var(--drawer-standard-width, var(--drawer-width, 50%));
+  max-width: 100%;
+  border-top: var(--drawer-border-top, var(--drawer-border, 0px));
+  border-right: var(--drawer-border-right, var(--drawer-border, 0px));
+  border-bottom: var(--drawer-border-bottom, var(--drawer-border, 0px));
+  border-left: var(--drawer-border-left, var(--drawer-border, 0px));
+  box-shadow: var(--drawer-shadow, var(--drawer-box-shadow, none));
+  background-color: var(--drawer-dialog-background, var(--drawer-background, #ffffff));
+  font-family: var(--drawer-font-family);
+  color: var(--drawer-color);
+}
+.drawer-header {
+  display: block;
+  position: relative;
+  flex-grow: 0;
+  word-wrap: break-word;
+  padding-top: var(--drawer-header-padding, var(--drawer-header-padding-top, var(--spacing-m, 36px)));
+  padding-bottom: var(--drawer-header-padding, var(--drawer-header-padding-bottom, 0px));
+  padding-left: var(--drawer-header-padding, var(--drawer-header-padding-left, var(--spacing-m, 36px)));
+  padding-right: var(--drawer-header-padding, var(--drawer-header-padding-right, var(--spacing-m, 36px)));
+  margin: var(--drawer-header-margin, 0px);
+  background: var(--drawer-header-background, var(--drawer-dialog-background, var(--drawer-background, #ffffff)));
+  font-family: var(--drawer-header-font-family);
+  font-weight: var(--drawer-header-font-weight);
+  font-size: var(--drawer-header-font-size);
+  color: var(--drawer-header-color);
+  --action-icon-color: var(--drawer-header-icon-color);
+  --divider-2-width: var(--drawer-header-border-bottom);
+}
+.drawer-header-icon-close {
+  display: inline-block;
+  float: right;
+}
+.drawer-header-icon-back {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: var(--drawer-back-icon-margin-right, var(--spacing-xs, 12px));
+  margin-bottom: var(--drawer-back-icon-margin-bottom, var(--spacing-xs, 12px));
+}
+.drawer-header .title {
+  display: var(--drawer-title-display, inline-block);
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: var(--drawer-title-margin-bottom, var(--spacing-xs, 12px));
+}
+.drawer-header-custom-content {
+  display: var(--drawer-title-display, inline-block);
+  vertical-align: middle;
+  margin-top: 0px;
+  margin-bottom: var(--drawer-title-margin-bottom, var(--spacing-xs, 12px));
+}
+.drawer-body {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  flex-wrap: wrap;
+  position: relative;
+  flex-grow: 1;
+  box-sizing: border-box;
+  overflow-y: auto;
+  padding: var(--drawer-body-padding, 0px);
+  margin: var(--drawer-body-margin, var(--spacing-m, 36px) var(--spacing-m, 36px) 0px var(--spacing-m, 36px));
+  font-family: var(--drawer-body-font-family);
+  font-size: var(--drawer-body-font-size);
+  font-weight: var(--drawer-body-font-weight);
+  word-wrap: break-word;
+}
+.drawer-body-content {
+  width: 100%;
+}
+.drawer-footer {
+  width: 100%;
+  position: sticky;
+  bottom: 0px;
+  align-self: flex-end;
+  display: flex;
+  z-index: 1;
+  background: var(--drawer-footer-background, var(--drawer-dialog-background, var(--drawer-background, #ffffff)));
+  padding: var(--drawer-footer-padding, var(--spacing-m, 36px) 0px);
+  margin: var(--drawer-footer-margin, 0px);
+  justify-content: var(--drawer-footer-justify-content, flex-end);
+  font-family: var(--drawer-footer-font-family);
+  font-size: var(--drawer-footer-font-size);
+  font-weight: var(--drawer-footer-font-weight);
+  color: var(--drawer-footer-color);
+}
+.drawer-slim .drawer-dialog {
+  width: var(--drawer-slim-width, 25%);
+}
+.drawer-slim .drawer-dialog .drawer-header {
+  padding-top: var(--drawer-slim-padding-top, var(--drawer-slim-header-padding-top, var(--spacing-s, 24px)));
+  padding-bottom: var(--drawer-slim-header-padding-bottom, 0px);
+  padding-left: var(--drawer-slim-header-padding-left, var(--spacing-s, 24px));
+  padding-right: var(--drawer-slim-header-padding-right, var(--spacing-s, 24px));
+  margin: var(--drawer-slim-header-margin, var(--drawer-header-margin, 0px));
+}
+.drawer-slim .drawer-dialog .drawer-header-icon-close {
+  top: var(--drawer-slim-padding-top, var(--drawer-slim-header-padding-top, var(--spacing-s, 24px)));
+  right: var(--drawer-slim-header-padding-right, var(--spacing-s, 24px));
+}
+.drawer-slim .drawer-dialog .drawer-header .title {
+  margin-bottom: var(--drawer-slim-title-margin-bottom, var(--drawer-title-margin-bottom, var(--spacing-xs, 12px)));
+}
+.drawer-slim .drawer-dialog .drawer-body {
+  padding: var(--drawer-slim-body-padding, 0px);
+  margin: var(--drawer-slim-body-margin, var(--spacing-s, 24px) var(--spacing-s, 24px) 0px var(--spacing-s, 24px));
+  font-size: var(--drawer-slim-body-font-size);
+}
+.drawer-slim .drawer-dialog .drawer-footer {
+  padding: var(--drawer-slim-footer-padding, var(--drawer-footer-padding, var(--spacing-m, 36px) 0px));
+  margin: var(--drawer-slim-footer-margin, var(--drawer-footer-margin, 0px));
+}
+
+.drawer-wide .drawer-dialog {
+  width: var(--drawer-wide-width, 95%);
+}
